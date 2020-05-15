@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-14T11:22:51Z" name="Default suite" finished-at="2020-03-14T11:23:42Z" duration-ms="51616">
+    <groups>
+    </groups>
+    <test started-at="2020-03-14T11:22:51Z" name="Default test" finished-at="2020-03-14T11:23:42Z" duration-ms="51616">
+      <class name="com.atc.test.NewTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.atc.test.NewTest@4fb3ee4e]" started-at="2020-03-14T16:52:51Z" name="beforeClass" finished-at="2020-03-14T16:53:09Z" duration-ms="18344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="loginTest()[pri:0, instance:com.atc.test.NewTest@4fb3ee4e]" started-at="2020-03-14T16:53:09Z" name="loginTest" finished-at="2020-03-14T16:53:13Z" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="signOutTest()[pri:0, instance:com.atc.test.NewTest@4fb3ee4e]" started-at="2020-03-14T16:53:13Z" name="signOutTest" finished-at="2020-03-14T16:53:13Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTest -->
+        <test-method signature="addProductandCheckOut()[pri:0, instance:com.atc.test.NewTest@4fb3ee4e]" started-at="2020-03-14T16:53:13Z" name="addProductandCheckOut" finished-at="2020-03-14T16:53:42Z" depends-on-methods="com.atc.test.NewTest.loginTest" duration-ms="28708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductandCheckOut -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.atc.test.NewTest@4fb3ee4e]" started-at="2020-03-14T16:53:42Z" name="afterClass" finished-at="2020-03-14T16:53:42Z" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.atc.test.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
